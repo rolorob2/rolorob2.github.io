@@ -1,1 +1,48 @@
+# Basic site settings
+title: "My Website"  # Name of your website
+description: "A personal website or blog"  # Short description of your site
+url: "https://yourusername.github.io"  # Your GitHub Pages URL (replace 'yourusername')
+
+# Social links (optional)
+social_links:
+  github: "https://github.com/yourusername"  # Replace with your GitHub profile URL
+  twitter: "https://twitter.com/yourusername"  # Replace with your Twitter profile URL
+  linkedin: "https://linkedin.com/in/yourusername"  # Replace with your LinkedIn profile URL
+
+# Author info (optional)
+author: "Your Name"  # Your name or the site's author name
+
+# Theme settings
+theme: minima  # Default GitHub Pages theme, you can change this if you prefer a different theme
+
+# Other optional settings
+markdown: kramdown  # This specifies the Markdown parser used, usually kramdown works well
+highlighter: rouge  # Code syntax highlighting, if you have any code blocks in your posts
+
+# Permalink structure for posts (optional)
+permalink: /:year/:month/:day/:title/  # For blog posts, creates a nice URL structure
+
+# Uncomment below if you want to enable comments using a third-party service (optional)
+# comments:
+#   provider: disqus
+#   shortname: "your-disqus-shortname"  # Replace with your Disqus shortname
+
+# Exclude specific files/folders from being built (optional)
+exclude:
+  - README.md
+  - LICENSE
+
+# Build settings (optional)
+collections:
+  posts:
+    output: true  # Enable posts to be rendered
+
+# Theme-specific customizations (optional)
+minima:
+  # Customize the Minima theme's appearance and layout if needed
+  # For example, you can change the header and footer sections
+  header_pages:
+    - home
+    - about
+    - contact
 
