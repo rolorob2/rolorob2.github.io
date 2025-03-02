@@ -1,3 +1,15 @@
-theme: minima  
 title: "My Personal Website"
 description: "Welcome to my GitHub Pages site!"
+theme: minima
+
+show_excerpts: true  # Shows post excerpts on homepage (if using blog)
+plugins:
+ # - jekyll-feed  # Adds an RSS feed
+  - jekyll-seo-tag  # Improves search engine optimization
+  - jekyll-sitemap  # Generates a sitemap for search engines
+
+# Navigation settings (if using Minima theme)
+minima:
+  social_links:
+    github: rolorob2
+    linkedin: rolorob
